@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(imagens/fundo.png);
+    height: 100%;
+    width: 100%;
+}
+
+#principal {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0;
+
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.divisao {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+section {
+    margin: 20px auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+/*Pagina 2*/
+
+.motivos5 {
+    padding-left: 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    padding-top: 0px;
+
+    margin-top: 1px;
+
+
+}
+
+.rodape {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.linha-objetivos {
+    margin-top: 25px;
+    border-top: 1px solid grey;
+}

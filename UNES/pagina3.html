@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div id="principal">
+
+        <header>
+            <img class="logo" src="imagens/logo.png">
+
+            <nav>
+                <ul type="none">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="divisao" href="pagina2.html">Quem Somos</a></li>
+                    <li><a href="pagina3.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Entre em contato</h2> <br>
+            <p>Preencha o formulário que em breve um de nossos especialistas entrará em contato. </p>
+            <form method="get" action="">
+                <fieldset>
+                    <legend>Cadastre-se</legend>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" />
+                    </div>
+                    <div>
+                        <label>Curso:</label>
+                        <input type="text" />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label>Nome:</label>
+                        <input type="text" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label>Telefone:</label>
+                        <input type="tel" placeholder="Ex: (99) 99999-9999">
+                    </div>
+                    <div>
+                        <label>Sexo:</label>
+                        <input type="radio" value="Masculino" name="sexo" checked>
+                        <label>Masculino</label>
+                        <input type="radio" value="Feminino" name="sexo">
+                        <label>Feminino</label>
+                        <input type="radio" value="Outros" name="sexo">
+                        <label>Não Informar</label>
+                    </div>
+                    <div>
+                        <label>Data de Nascimento:</label>
+                        <input type="date">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <div>
+                        <label>Rua:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Número</label>
+                        <input type="number" min="1" max="9999">
+                    </div>
+                    <div>
+                        <label>Complemeto:</label>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <label>Cidade:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Estado:</label>
+                        <select>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo </option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PR">Paraná</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Assunto</legend>
+                    <div>
+                        <label>Descrição:</label>
+                        <textarea maxlength="256" placeholder="
+                    Digite aqui..."></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" checked>
+                        <label>Deseja receber novidades por email?</label>
+                    </div>
+                </fieldset>
+
+
+            </form>
+
+
+        </main>
+        <footer>
+            <p class="rodape">Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
